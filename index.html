@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
-    <!-- NORMALIZE -->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <!-- STYLES -->
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <!-- NORMALIZE -->
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
-
-    
-    <script src="js/main.js"></script>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="site-header__logo-link logo-link" href="#">
+        <img class="site-header__logo-img logo-img" src="./img/logo.svg" alt="Site Logo" width="154"   height="27">
+      </a>
+      <form>
+        <input class="site-header__input" placeholder="Qidiruv" type="text" required name="search-input">
+      </form>
+      <nav class="sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a href="#">Elektronika</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Ehtiyot qismlari</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Gildiraklar</a>
+            <ul class="dropdown">
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">Shinalar</a>
+              </li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">Diskalar</a>
+              </li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">Aksesuarlar</a>
+              </li>
+            </ul>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Akustikalar</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Qurilmalar</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Gadjetlar</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Aksesuarlar</a>
+          </li>
+          <li class="sitenav__item">
+            <a href="#">Boshqalar</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="site-header__lang" href="#">UZ</a>
+      <button class="site-header__notification-btn">
+        <img class="site-header__notification-img" src="./img/notification.svg" alt="notification icon" width="20" height="20">
+      </button>
+      <button class="site-header__cart-btn">
+        <img class="site-header__cart-img" src="./img/cart.svg" alt="cart icon" width="20" height="20">
+      </button>
+      <div class="site-header__profile">
+        <a class="site-header__profile-link" href="#">
+          <img class="site-header__profile-img" src="./img/profile.png" alt="" width="49" height="49">
+        </a>
+      </div>
+      Lorem ipsum dolor sit amet.
+    </div>
+  </header>
+  
+  <script src="js/main.js"></script>
 </body>
 </html>
